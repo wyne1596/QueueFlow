@@ -1,0 +1,11 @@
+{
+  "title": "QueueFlow",
+  "description": "Manage queues, appointments, orders, customers, and notifications in one customizable platform built for service businesses to streamline daily operations and improve customer experiences.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
