@@ -1,0 +1,19 @@
+
+## Work status
+- Not Started: the request is recorded but work has not begun.
+- In Progress: the business is preparing or performing the service.
+- Ready: the product or service is finished and ready for pickup or collection.
+- Received: the customer has received the product or service.
+- Cancelled: the request was cancelled.
+
+## Arrival / queue status
+- Not Arrived: the customer has not arrived at the shop.
+- Waiting: the customer has arrived and joined the queue.
+- Being Served: the customer is currently being attended to.
+- Departed: the customer has left or has been skipped.
+
+Only Waiting and Being Served customers appear in the active queue. Scheduled orders can move through Not Started, In Progress,
+and Ready while remaining Not Arrived. When the customer arrives, the owner changes the arrival status to Waiting.
+When service or collection is finished, the owner can mark the customer as Received.
+
+Call and SMS reminder controls show simulated previews only. The prototype does not place real calls or send real messages.
